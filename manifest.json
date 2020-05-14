@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/adam-p/breached/master/src/chrome-manifest.json",
+  
+  "name": "Translate Worthing",
+  "version": "1.0",
+  "description": "Translate words or phrases, with just hover, using any dictionary!",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
